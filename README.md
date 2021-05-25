@@ -1,6 +1,6 @@
 # Calculator App
 
-This is a React calculator app which is built fully using JavaScript and JSX.In this app, you can do your calculations very easily and fastly.
+This is a React calculator app which is built fully using JavaScript and JSX.In this app, you can do your calculations very easily and efficiently.
 
 ## Live Demo
 
