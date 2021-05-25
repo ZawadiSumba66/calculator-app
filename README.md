@@ -4,7 +4,7 @@ Initial Project setup of the calculator
 
 ## Live Demo
 
--[live-version](https://guarded-savannah-56728.herokuapp.com/)
+-[live-version](https://my-math.herokuapp.com/)
 
 ## Built with
 
