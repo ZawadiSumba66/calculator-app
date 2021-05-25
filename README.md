@@ -14,7 +14,7 @@ This is a React calculator app which is built fully using JavaScript and JSX.In 
 
 - Clone the repo `https://github.com/ZawadiSumba66/calculator-app.git`
 - cd into `calculator-app`
-- git checkout to `project-setup`
+- git checkout to `calculator-layout`
 - Run `git pull` to update the changes
 - Run `yarn install` or `npm install` to install dependencies
 - On the terminal run `npm start` open up the live server
