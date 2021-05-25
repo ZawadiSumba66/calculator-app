@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 
-function Button(props) {
+function Button({ name }) {
   return (
-    <button type="button">{props.name}</button>
+    <button type="button">{name}</button>
   );
 }
 

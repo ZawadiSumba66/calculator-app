@@ -2,9 +2,7 @@ import React from 'react';
 import Button from './Button';
 
 export default class ButtonPanel extends React.Component {
-  renderButton(i) {
-    return <Button name={i} />;
-  }
+  renderButton=(i) => <Button name={i} />
 
   render() {
     return (
@@ -37,7 +35,6 @@ export default class ButtonPanel extends React.Component {
           {this.renderButton(0)}
           {this.renderButton('.')}
           {this.renderButton('=')}
-
         </div>
       </div>
     );
