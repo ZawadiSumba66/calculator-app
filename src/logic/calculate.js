@@ -14,7 +14,7 @@ function calculate(calculatorObject, buttonName) {
         || buttonName === '*'
         || buttonName === '%'
   ) {
-    operation = !total ? buttonName : null;
+    operation = !next ? buttonName : null;
   } else if (buttonName === '=') {
     operate(total, next, operation);
   }
