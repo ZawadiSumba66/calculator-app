@@ -1,5 +1,5 @@
 function calculate (calculatorObject,buttonName){
-let {total,next,operation} =alculatorObject
+let {total,next,operation} =calculatorObject
 if(buttonName==='AC'){
     total = ''
     next = ''
@@ -16,4 +16,7 @@ else if(buttonName==='+'||
         ){
        operation= !total ? buttonName : null
         }
+        return {total,next,operation}
 }
+
+export default calculate
