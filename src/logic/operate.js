@@ -23,3 +23,5 @@ function operate(numberOne,numberTwo,operation){
    }
    return res.toString;
 }
+
+export default operate;
