@@ -7,7 +7,7 @@ function calculate(calculatorObject, buttonName) {
     next = '';
     operation = '';
   } else if (buttonName === '+/-') {
-    total = next * total * -1;
+    total = (next * total * -1).toString();
   } else if (buttonName === '+'
         || buttonName === '-'
         || buttonName === '/'
@@ -16,7 +16,13 @@ function calculate(calculatorObject, buttonName) {
   ) {
     operation = !next ? buttonName : null;
   } else if (buttonName === '=') {
-    operate(total, next, operation);
+    total = operate(total, next, operation);
+    next = '';
+    operation = null;
+  } else if (!operation) {
+    total += buttonName;
+  } else {
+    next += buttonName;
   }
   return { total, next, operation };
 }

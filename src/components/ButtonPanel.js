@@ -15,25 +15,25 @@ function ButtonPanel({ clickHandler }) {
         {renderButton('/')}
       </div>
       <div className="calculator-row">
-        {renderButton(7)}
-        {renderButton(8)}
-        {renderButton(9)}
+        {renderButton('7')}
+        {renderButton('8')}
+        {renderButton('9')}
         {renderButton('*')}
       </div>
       <div className="calculator-row">
-        {renderButton(4)}
-        {renderButton(5)}
-        {renderButton(6)}
+        {renderButton('4')}
+        {renderButton('5')}
+        {renderButton('6')}
         {renderButton('-')}
       </div>
       <div className="calculator-row">
-        {renderButton(1)}
-        {renderButton(2)}
-        {renderButton(3)}
+        {renderButton('1')}
+        {renderButton('2')}
+        {renderButton('3')}
         {renderButton('+')}
       </div>
       <div className="calculator-row">
-        {renderButton(0)}
+        {renderButton('0')}
         {renderButton('.')}
         {renderButton('=')}
       </div>

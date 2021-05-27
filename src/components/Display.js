@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 function Display({ total, operation, next }) {
   return (
     <div>
-      <h1>
+      <h2>
         {total || '0'}
         {operation || ''}
         {next}
-      </h1>
+      </h2>
     </div>
   );
 }
