@@ -18,7 +18,7 @@ function ButtonPanel({ clickHandler }) {
         {renderButton('7')}
         {renderButton('8')}
         {renderButton('9')}
-        {renderButton('*')}
+        {renderButton('X')}
       </div>
       <div className="calculator-row">
         {renderButton('4')}

@@ -7,11 +7,13 @@ function calculate(calculatorObject, buttonName) {
     next = '';
     operation = '';
   } else if (buttonName === '+/-') {
-    total = (next * total * -1).toString();
+    if (total) {
+      total *= (-1).toString();
+    }
   } else if (buttonName === '+'
         || buttonName === '-'
         || buttonName === '/'
-        || buttonName === '*'
+        || buttonName === 'X'
         || buttonName === '%'
   ) {
     operation = !next ? buttonName : null;
