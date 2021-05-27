@@ -4,8 +4,6 @@ import Button from './Button';
 
 function ButtonPanel({ clickHandler }) {
   const renderButton = (i) => <Button name={i} handleClick={clickHandler} />;
-
-  // render() {
   return (
     <div>
       <div className="calculator-row">
