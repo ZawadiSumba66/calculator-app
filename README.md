@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # Calculator App
 
 This is a React calculator app which is built fully using JavaScript and JSX.In this app, you can do your calculations very easily and efficiently.
@@ -9,6 +11,10 @@ This is a React calculator app which is built fully using JavaScript and JSX.In 
 - JSX
 - Big js
 - Prop-types
+
+## Live Demo
+
+[Live demo](https://my-math.herokuapp.com/)
 
 ## Getting Started
 
