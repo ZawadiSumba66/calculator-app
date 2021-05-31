@@ -30,7 +30,7 @@ function ButtonPanel({ clickHandler }) {
         {renderButton('3')}
         {renderButton('+')}
       </div>
-      <div className="calculator-row">
+      <div className="calculator2-row">
         {renderButton('0')}
         {renderButton('.')}
         {renderButton('=')}
@@ -38,7 +38,6 @@ function ButtonPanel({ clickHandler }) {
     </div>
   );
 }
-// }
 
 ButtonPanel.propTypes = {
   clickHandler: PropTypes.func.isRequired,

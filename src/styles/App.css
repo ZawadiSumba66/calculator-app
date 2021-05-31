@@ -1,0 +1,49 @@
+.my-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-calculator {
+    width: 700px;
+}
+
+.my-display {
+  background-color: #858694;
+  height: 70px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 30px;
+  padding: 20px;  
+  right: 0;
+}
+
+.display-heading {
+  right: 0;
+}
+
+.button {
+    height: 100px;
+    color: #000;
+    font-weight: bold;
+    width: 175px;
+    font-size: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    margin-right: 3rem;
+}
+li {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+}
