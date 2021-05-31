@@ -22,11 +22,12 @@
 }
 
 .button {
-    height: 100px;
+    height: 80px;
     color: #000;
     font-weight: bold;
     width: 175px;
     font-size: 30px;
+    cursor: pointer;
 }
 
 .navbar {
