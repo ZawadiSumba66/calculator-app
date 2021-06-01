@@ -27,7 +27,7 @@ describe('calculate', () => {
     expect(data.operation).toEqual('X');
   });
 
-  it('undetakes an operation when an equal sign is clicked', () => {
+  it('undertakes an operation when an equal sign is clicked', () => {
     const myCalculate = { total: 15, operation: 'X', next: 5 };
     const data = calculate(myCalculate, '=');
     expect(data.total).toEqual('75');

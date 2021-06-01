@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`matches the Home snapshot 1`] = `
+exports[`matches the Calculator snapshot 1`] = `
 <div
   className="center"
 >
@@ -13,6 +13,7 @@ exports[`matches the Home snapshot 1`] = `
     >
       <div
         className="my-display"
+        data-testid="display"
       >
         <h2
           className="display-heading"
