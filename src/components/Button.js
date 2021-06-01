@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 function Button({ name, handleClick }) {
   return (
-    <button type="button" className="button" onClick={() => handleClick(name)}>{name}</button>
+    <button type="button" data-testid="button" className="button" onClick={() => handleClick(name)}>{name}</button>
   );
 }
 
