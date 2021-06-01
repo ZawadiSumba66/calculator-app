@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
-    <div className="navbar">
+    <div className="navbar" data-testid="navbar">
       <h2>Math Magicians</h2>
       <ul>
         <li>
