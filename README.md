@@ -25,6 +25,10 @@ This is a React calculator app which is built fully using JavaScript and JSX.In 
 - Run `yarn install` or `npm install` to install dependencies
 - On the terminal run `npm start` open up the live server
 
+### Testing 
+
+- Run `npm test` for all the tests.
+
 ## Author
 
 👤 **Rose Sumba**
