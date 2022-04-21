@@ -14,7 +14,7 @@ This is a React calculator app which is built fully using JavaScript and JSX.In 
 
 ## Live Demo
 
-[Live demo](https://my-math.herokuapp.com/)
+[Live demo](https://calculator-rose.netlify.app/)
 
 ## Getting Started
 
